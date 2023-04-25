@@ -4,7 +4,12 @@
     margin: 0;
     padding: 0;
     font-size: 14px;
-    font-family: 'Raleway', sans-serif;}
+    font-family: 'Raleway', sans-serif;
+}
+body{
+    background-color:  hsl(229, 57%, 11%);
+
+}
 .main{
     background: url(./images/bg-mobile.png);
     background-size: cover;
@@ -148,8 +153,8 @@
         flex-direction: row;
     }
     .fylo{
-        width:20%;
-        min-width: 200px;
+        width:25%;
+        min-width: 250px;
         position: absolute;
         left: 20%;
         top: -51%;
@@ -250,21 +255,22 @@
         flex-direction: row;
     }
     .fylo{
-        width:20%;
-        min-width: 200px;
+        width:25%;
+        min-width: 250px;
         position: absolute;
-        left: 26%;
-        top: -48%;
+        left: 20%;
+        top: -50%;
+        padding: 1.2rem;
     }
     .logo{
-        margin: 1rem 0 2rem 1rem;
+        margin: 1rem 0 3rem 1rem;
     }
     .folders{
         display: flex;
         align-items: start;
-        gap: 1rem;
-        margin-left: 1rem;
-        margin-bottom: 0rem;
+        gap: .8rem;
+        margin-left: .5rem;
+        margin-bottom: 1.8rem;
     }
     .document{
         background-color: hsl(229, 57%, 11%);
@@ -273,20 +279,20 @@
     }
     .files{
         background-color: hsl(229, 57%, 11%);
-        padding: 1.2rem 1rem;
+        padding: 1.1rem .8rem;
         border-radius: 10px; 
     }
     .upload{
         background-color: hsl(229, 57%, 11%);
-        padding: 1.3rem 1rem;
+        padding: 1.3rem .8rem;
         border-radius: 10px; 
     }
     .data{
-        width: 35%;
+        width: 40%;
         min-width: 300px;
        position: absolute;
        left: 47.5%;
-       top: -7%;
+       top: -10%;
     }
     .data p{
         text-align: start;
@@ -297,13 +303,13 @@
         margin-left: 1rem;
     }
     .circle{
-        left: 96%;
+        left: 97.5%;
         top: 10%;
     }
     .pop{
         border-radius: 10px 10px 0 10px;
         top: -40%;
-        left: 64%;
+        left: 70%;
         min-width: 100px;
     }
     .pop span::after {
